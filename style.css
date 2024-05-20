@@ -92,7 +92,7 @@ a {
   flex-basis: 30%;
   font-size: 2em;
   max-width: 30%;
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ a {
 @media only screen and (min-width: 1200px){
 
       .headerimg{
-  max-width: 45% !important;
+  max-width: 30% !important;
 /*  margin-left: 10% !important;*/
 }
 
@@ -236,6 +236,14 @@ a {
 @media only screen and (min-width: 991px) {
   .hero{
     margin-top: 7%;
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .hero{
+    margin-top: 11%;
+    margin-bottom: 13%;
   }
 }
 
@@ -243,15 +251,16 @@ a {
   line-height: 36px;
   letter-spacing: 3px;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 30px;
   color: #000;
-  margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 1%;
+  font-family: 'Teko', sans-serif;
 }
 
 .hero-text h1 {
-  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+  background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #e86f39);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -454,11 +463,11 @@ a {
       font-size: 6em;
       text-align: center;
       margin-top: 1%;
-      letter-spacing: 2px;
+      font-style: italic;
       margin-bottom: 4%;
       text-transform: capitalize;
-      font-family: poppins, sans-serif;
-      font-weight: bold;
+      font-family: 'Teko', sans-serif;
+      font-weight: 700;
       color: #000;
 
     }
@@ -512,12 +521,13 @@ a {
   .for-text h1 {
     color: #000;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 4.5rem;
     letter-spacing: 0;
     line-height: 1.2;
+    font-style: italic;
     overflow: hidden;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Teko', sans-serif;
   }
 
   .points p{
@@ -570,7 +580,7 @@ a {
   }
 
   .process_img{
-    max-width: 30%;
+    max-width: 27%;
     height: auto;
     border-radius: 20px;
     margin-bottom: 5%;
@@ -583,8 +593,9 @@ a {
 .custom-text--heading {
   color: #000;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 18px;
+  font-family: 'poppins',sans-serif;
 }
 
 /*BODY TEXT*/
@@ -593,33 +604,13 @@ a {
   font-size: 22px;
   line-height: 33px;
   margin-bottom: 30px;
+  font-weight: 300;
+  font-family: 'poppins',sans-serif;
 }
-
-/*LINK OR BUTTON*/
-.custom-text--button {
-  background: #252528;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  width: fit-content;
-  cursor: pointer;
-  text-decoration: none;
-  text-transform: UPPERCASE;
-}
-
-/*HOVER AND KEYBOARD FOCUS EFFECT*/
-.custom-text--button:hover, .custom-text--button:active, .custom-text--button:focus {
-  background: #32343a;
-  outline: 2px solid #425ccd;
-}
-
 
 /*PICTURE OR IMAGE*/
 .custom-media--image {
-  width: 100%;
+  width: 70%;
   box-sizing: border-box;
 }
 
@@ -635,8 +626,8 @@ a {
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
-  gap: 80px;
-  padding: 60px 24px;
+  /* gap: 80px; */
+  padding: 24px 24px;
 }
 
 .custom-text {
@@ -647,8 +638,13 @@ a {
 
 .custom-media {
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 }
+
+.custom-media1 {
+  display: flex;
+  justify-content: center;
+  }
 
 @media only screen and (max-width: 950px) {
 .custom-content {
@@ -696,10 +692,10 @@ justify-content: center;
 	}
 
 	.book h3{
-		font-family: 'poppins',sans-serif;
+		font-family: 'Teko',sans-serif;
 		font-weight: 700;
 		color: #000;
-		font-size: 3rem;
+		font-size: 4.5rem;
 		text-align: center;
 	}
 
@@ -742,7 +738,7 @@ justify-content: center;
 	/*///////////contact//////////*/
 
 	.contact h2 {
-		font-family: 'poppins',sans-serif;
+		font-family: 'Teko',sans-serif;
 		font-weight: 700;
 		color: #000;
 		font-size: 5rem;
@@ -823,6 +819,11 @@ justify-content: center;
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
+.footer_right{
+  display: flex;
+  gap: 70px;
+}
+
 .single-cta i {
   color: rgb(128,128,215);
   font-size: 30px;
